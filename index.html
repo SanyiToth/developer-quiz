@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<h1 id="title">Programozó kvíz</h1>
+<div id="result-box">
+    <h2 id="result-box--title">Eredmény</h2>
+    <h3 id="result-box--content">Lássuk mennyire vagy képben</h3>
+</div>
+
+<form id="form">
+    <fieldset>
+        <ol>
+            <li>
+                <h4>A programozó az egy … (fejezd be a mondatot)</h4>
+                <input class="radio" name="q1" type="radio" value="A">
+                <label>ember</label> <br>
+                <input class="radio" name="q1" type="radio" value="B">
+                <label>gép, ami a kávét kóddá változtatja.</label>
+            </li>
+            <li><h4>Mire táncolnak a programozók?</h4>
+                <input class="radio" name="q2" type="radio" value="A">
+                <label>technóra</label> <br>
+                <input class="radio" name="q2" type="radio" value="B">
+                <label>Algoritmusra</label>
+            </li>
+            <li><h4>Hogy kezdi a számolást programozó?</h4>
+                <input class="radio" name="q3" type="radio" value="A">
+                <label>Egy, két, há.</label><br>
+                <input class="radio" name="q3" type="radio" value="B">
+                <label>0, egy, kettő, …</label>
+            </li>
+            <li><h4>Mi a tömb utolsü eleme? [“hip”, “hip”, ??? ]</h4>
+                <input class="radio" name="q4" type="radio" value="A">
+                <label>“hurray”</label><br>
+                <input class="radio" name="q4" type="radio" value="B">
+                <label>“array”</label>
+
+            </li>
+        </ol>
+        <div id="submit-box">
+            <input id="sendBtn" type="submit" value="Küldés">
+        </div>
+    </fieldset>
+
+</form>
+<script src="script.js"></script>
+</body>
+</html>
